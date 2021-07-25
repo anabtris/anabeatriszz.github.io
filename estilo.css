@@ -1,0 +1,116 @@
+/*Limpar formatação padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Garamond","Times New Roman", serif;
+	background: #E0FFFF;
+}
+
+/*
+@@@@ layout @@@@
+*/
+
+#area-cabecalho{
+	background-color:#B0E0E6;
+	padding: 10x;
+	text-align: center;
+}
+
+#area-logo , #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+#area-lateral{
+	width: 360;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px solid #6A5ACD;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #87CEEB;
+}
+
+/*
+@@@@ Formatação do menu @@@@
+*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #4682B4;
+	padding: 8px 12px;
+}
+ a:hover{
+	color: #FFF;
+	background: #4682B4;
+	text-decoration: underline;
+}
+/*
+@@@@ Formatação no geral @@@@
+*/
+
+h1{
+	color:#4682B4;
+	font-size: 3.7em;
+}
+h2{
+	color: #00BFFF;
+	font-size: 2.3em;
+}
+
+h3{
+	color: white;
+	background:#87CEEB;
+	padding: 5px;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	margin-bottom: 6px;
+	word-spacing: 0.5px;
+}
+.branco{
+	color: #00BFFF;
+}
+.data-postagem{
+	font-size: 0.9em;
+	border-bottom: 1px solid #FFC0CB;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
